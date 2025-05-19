@@ -4,6 +4,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import FeedbackForm from './components/FeedbackForm';
 import Footer from "./components/Footer";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+       <section id="feedback" className="my-12">
+        <FeedbackForm />
+      </section>
       <Footer />
 
     </div>
