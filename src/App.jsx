@@ -4,6 +4,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', margin: '20px', backgroundColor: '#f9f9f9', padding: '20px', borderRadius: '8px' }}>
@@ -13,6 +15,8 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
+
     </div>
   );
 }
