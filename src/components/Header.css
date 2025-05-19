@@ -1,0 +1,9 @@
+.nav-links a {
+  margin-right: 20px;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
