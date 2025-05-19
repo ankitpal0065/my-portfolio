@@ -4,7 +4,7 @@ import './Header.css'; // link CSS file
 const Header = () => {
   return (
     <header>
-      <h1>My Portfolio</h1>
+      <h1>Ankit kumar</h1>
       <nav className="nav-links">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
