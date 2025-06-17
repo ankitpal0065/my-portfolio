@@ -5,6 +5,7 @@
   "type": "module",
   "homepage": "https://ankitpal0065.github.io/my-portfolio",
   "scripts": {
+    "start": "vite", 
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",

@@ -3,12 +3,12 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      name: 'FULL-STACK E-COMMERCE ',
-      description: 'Developed a fully functional e-commerce application with features like user authentication, product browsing, shopping cart and admin product management. Functionality:sign up,Log in ,Authentication, browse product, add product to the cart. '
+      name: 'Diabetes Prediction Web App ',
+      description: 'Developed a Flask-based web application that predicts the likelihood of diabetes using a trained machine learning model. The app collects user health metrics through an interactive form and displays the prediction result with suggestions.\nIntegrated a .pkl model for real-time inference.\nApplied data preprocessing techniques and model validation. '
     },
     {
-      name: 'TO-DO LIST',
-      description: 'created a simple and interactive TO-DO List application for task management ,enabling users to organize and prioritized daily activities ,(add, update and delete tasks dynamically)mark task as completed and pending. '
+      name: 'My-Portfolio Website',
+      description: 'Built and deployed a responsive personal portfolio to showcase projects, skills, and contact information.\n Implemented React Router for smooth navigation between project pages.\n Integrated project cards and certificate carousel for dynamic content display.\nHosted on GitHub Pages for easy access. '
     }
   ];
 
