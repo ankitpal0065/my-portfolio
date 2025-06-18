@@ -1,9 +1,9 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://ankitpal0065.github.io/my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ankitpal0065.github.io/my-portfolio",
   "scripts": {
     "start": "vite",
     "dev": "vite",
