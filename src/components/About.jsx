@@ -21,7 +21,7 @@ const About = () => {
 
       <div style={{ flexShrink: 0, marginTop: '10px' }}>
         <img
-          src="/my-portfolio/profile.jpg"
+          src="public/profile.jpg"
           alt="Ankit Kumar"
           width="220"
           style={{
@@ -37,4 +37,4 @@ const About = () => {
   );
 };
 
-export default About; 
+export default About;
