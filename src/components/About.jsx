@@ -40,7 +40,7 @@ const About = () => {
             height: '220px',
             boxShadow: '0 0 10px rgba(0,0,0,0.2)',
             border: '3px solid #ccc',
-            transform: 'translateX(20px)', // slight right shift on small screens
+            transform: 'translateX(10px)', // slight right shift on small screens
           }}
         />
       </div>
