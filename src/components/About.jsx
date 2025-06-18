@@ -12,7 +12,6 @@ const About = () => {
         flexWrap: 'wrap',
       }}
     >
-      {/* Left Text Section */}
       <div style={{ flex: 1, minWidth: '250px' }}>
         <h2>About Me</h2>
         <p>
@@ -20,16 +19,7 @@ const About = () => {
         </p>
       </div>
 
-      {/* Right Image Section (centered + slight shift on mobile) */}
-      <div
-        style={{
-          flexShrink: 0,
-          marginTop: '20px',
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'center',
-        }}
-      >
+      <div style={{ flexShrink: 0, marginTop: '10px' }}>
         <img
           src="/my-portfolio/profile.jpg"
           alt="Ankit Kumar"
@@ -40,7 +30,6 @@ const About = () => {
             height: '220px',
             boxShadow: '0 0 10px rgba(0,0,0,0.2)',
             border: '3px solid #ccc',
-            transform: 'translateX(10px)', // slight right shift on small screens
           }}
         />
       </div>
@@ -48,4 +37,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About; 
